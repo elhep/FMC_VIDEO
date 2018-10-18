@@ -1,0 +1,35 @@
+! This is an automatically generated file
+! change it at your own peril
+
+! Push Layer Map scheme file
+! Created 08/17/16 13:03:53
+!
+
+.GLOBAL_SETTINGS
+	..PHYSICAL_LAYER_COUNT 4
+	..DRAFT_LAYER_COUNT 15
+	..CURRENT_SCHEME_NAME ""
+.PHYSICAL_LAYER_MAP (
+	"1" "4"
+	"2P" "3P"
+	"3P" "2P"
+	"4" "1"
+)
+.DRAFT_LAYER_MAP (
+	"AssemblyTop" "AssemblyBottom"
+	"AssemblyBottom" "AssemblyTop"
+	"SilkscreenTop" "SilkscreenBottom"
+	"SilkscreenBottom" "SilkscreenTop"
+	"SolderMaskTop" "SolderMaskBottom"
+	"SolderMaskBottom" "SolderMaskTop"
+	"SolderPasteTop" "SolderPasteBottom"
+	"SolderPasteBottom" "SolderPasteTop"
+	"Default User Layer" "Default User Layer"
+	"DXF_Mechanical1" "DXF_Mechanical1"
+	"TRACELEN_WORKAREA" "TRACELEN_WORKAREA"
+	"User Layer 15" "User Layer 15"
+	"User Layer 16" "User Layer 16"
+	"User Layer 18" "User Layer 18"
+	"User Layer 19" "User Layer 19"
+)
+!end of scheme

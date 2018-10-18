@@ -1,0 +1,408 @@
+.FILETYPE GerberPlotSetupFile
+.VERSION "VB99.0"
+.CREATOR "Xpedition xPCB Layout Gerber Output"
+.DATE "Wednesday, February 15, 2017 12:12 PM"
+
+.BaseUnits "1NM"
+
+.GerberOutputDir "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\"
+
+.DataOffset 0 0
+.DataCopies 1 1
+ ..OriginOffset 0 0
+
+.GenerateMacro Yes 
+
+.VariantsOutput No 
+.DCodeToApertureFile "Sys: GerberD-Codes.dac"
+.GerberMachineFormatFile "(Default)"
+
+.GerberOutputFile "SoldermaskTop.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\SoldermaskTop.gbr"
+ ..HeaderText
+   ...CommentLine "Solder top"
+ ..BoardItem SoldermaskTop
+
+.GerberOutputFile "SoldermaskBottom.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\SoldermaskBottom.gbr"
+ ..HeaderText
+   ...CommentLine "solder bot"
+ ..BoardItem SoldermaskBottom
+
+.GerberOutputFile "SolderPasteTop.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\SolderPasteTop.gbr"
+ ..HeaderText
+   ...CommentLine "Paste top"
+ ..BoardItem SolderpasteTop
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "SolderPasteBottom.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\SolderPasteBottom.gbr"
+ ..HeaderText
+   ...CommentLine "Paste bot"
+ ..BoardItem SolderpasteBottom
+
+.GerberOutputFile "Outline.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\Outline.gbr"
+ ..HeaderText
+   ...CommentLine "Outline"
+ ..BoardItem BoardOutline
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "GeneratedSilkscreenTop.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\GeneratedSilkscreenTop.gbr"
+ ..HeaderText
+   ...CommentLine "Silk top"
+ ..BoardItem AlteredSilkscreenTop
+ ..BoardItem BoardCavities
+ ..BoardItem BoardOutline
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+ ..CellItemsSide Bottom
+   ...CellItemsLayer 1
+   ...CellItem DiePins
+   ...CellItem SilkscreenOutline
+   ...CellItem SilkscreenReferenceDesignator
+
+.GerberOutputFile "GeneratedSilkscreenBottom.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\GeneratedSilkscreenBottom.gbr"
+ ..HeaderText
+   ...CommentLine "Silk bot"
+ ..BoardItem AlteredSilkscreenBottom
+ ..BoardItem BoardCavities
+ ..BoardItem BoardOutline
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "EtchLayer4Bottom.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\EtchLayer4Bottom.gbr"
+ ..HeaderText
+   ...CommentLine "L4"
+ ..ConductiveLayer 4
+   ...ConductiveItem BondPads
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem MountingHolesByLayer
+   ...ConductiveItem PartHolesByLayer
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsTest
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaHoles
+   ...ConductiveItem ViaPads
+   ...ConductiveItem CopperBalancing
+   ...ProcessUnconnectedPads Yes
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "EtchLayer3Neg.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\EtchLayer3Neg.gbr"
+ ..HeaderText
+   ...CommentLine "L3"
+ ..ConductiveLayer 3
+   ...ConductiveItem PlaneData
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "EtchLayer2Neg.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\EtchLayer2Neg.gbr"
+ ..HeaderText
+   ...CommentLine "L2"
+ ..ConductiveLayer 2
+   ...ConductiveItem PlaneData
+
+.GerberOutputFile "EtchLayer1Top.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\EtchLayer1Top.gbr"
+ ..HeaderText
+   ...CommentLine "L1"
+ ..ConductiveLayer 1
+   ...ConductiveItem BondPads
+   ...ConductiveItem EtchedText
+   ...ConductiveItem Fiducials
+   ...ConductiveItem MountingHolesByLayer
+   ...ConductiveItem PartHolesByLayer
+   ...ConductiveItem PartPadsSMD
+   ...ConductiveItem PartPadsTest
+   ...ConductiveItem PartPadsThru
+   ...ConductiveItem PlaneData
+   ...ConductiveItem ResistorAreas
+   ...ConductiveItem Traces
+   ...ConductiveItem ViaHoles
+   ...ConductiveItem ViaPads
+   ...ConductiveItem CopperBalancing
+   ...ConductiveItem EmbeddedCapPads
+   ...ConductiveItem EmbeddedResPads
+   ...ProcessUnconnectedPads Yes
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "Drill_drawing.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\Drill_drawing.gbr"
+ ..BoardItem DrillDrawingThru
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+
+.GerberOutputFile "Assembly_drawing_top.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\Assembly_drawing_top.gbr"
+ ..BoardItem BoardOutline
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+ ..CellItemsSide Bottom
+   ...CellItemsLayer 1
+   ...CellItem AssemblyOutline
+   ...CellItem SilkscreenReferenceDesignator
+
+.GerberOutputFile "Assembly_drawing_bot.gbr"
+ ..ProcessFile Yes
+ ..FlashPads Yes
+ ..GerberOutputPath "D:\\Dropbox\\DESIGNS\\FMC boards\\FMC_HD_TVI\\FMC_HD_TVI\\PCB\\Output\\Production Outputs\\Gerber\\Assembly_drawing_bot.gbr"
+ ..BoardItem BoardOutline
+ ..CellType Buried
+ ..CellType Connector
+ ..CellType DiscreteAxial
+ ..CellType DiscreteChip
+ ..CellType DiscreteOther
+ ..CellType DiscreteRadial
+ ..CellType EdgeConnector
+ ..CellType EmbeddedPassive
+ ..CellType General
+ ..CellType Graphic
+ ..CellType ICBareDie
+ ..CellType ICBGA
+ ..CellType ICDIP
+ ..CellType ICFlipChip
+ ..CellType ICLCC
+ ..CellType ICOther
+ ..CellType ICPGA
+ ..CellType ICPLCC
+ ..CellType ICSIP
+ ..CellType ICSOIC
+ ..CellType Jumper
+ ..CellType Mechanical
+ ..CellType TestPoint
+ ..CellItemsSide Bottom
+   ...CellItemsLayer 4
+   ...CellItem AssemblyOutline
+   ...CellItem SilkscreenReferenceDesignator
+.SchemeChanged No 
+.Scheme "D:\\Dropbox\\DESIGNS\\COMMON_LIBS\\Xpedition_lib\\Expedition settings\\GerberPlot4"
+.SchemeLocation "User"

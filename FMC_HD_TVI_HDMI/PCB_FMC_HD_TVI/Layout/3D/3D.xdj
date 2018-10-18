@@ -1,0 +1,35 @@
+#Project name
+XRName 3D
+
+#Project path
+XRPathName D:\Dropbox\DESIGNS\FMC boards\FMC_HD_TVI_HDMI\FMC_HD_TVI_HDMI\PCB_FMC_HD_TVI\Layout
+
+#MapVersion
+XRMapVesrion 0
+
+#Emn file name
+XREmnName Input.emn
+
+#Emp file name
+XREmpName 
+
+#Assembly file name
+XRAsmName 
+
+#Assembly Creation Time
+MakeModelTime 
+
+#Date of modify
+XRDate 06/01/17 15:08:43
+
+#Status of the project
+XRStatus 0
+
+#Constrains
+XRConstrains 1
+
+#Viewing Features of the project
+ASM_Features 1 1 1 1 0 1
+Sim_Features 1 1 1 0 0 1
+
+
